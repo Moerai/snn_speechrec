@@ -4,7 +4,7 @@ import time
 import numpy as np
 from sklearn import svm
 from sklearn.utils import shuffle
-from sklearn.metrics import plot_confusion_matrix
+import plot_confusion_matrix
 import matplotlib.pyplot as plt
 
 from ..data.io import load_labels_from_mat, load_data_from_path
